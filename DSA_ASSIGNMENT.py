@@ -1,8 +1,13 @@
 from platform import node
 
 """
-CALLED THE NODE CLASS SINCE PYTHON NEEDS IT TO BE ABLE TO 
-EXTEND THE CLASS INTO CREATING A LINKED LIST 
+STUDENT NAMES
+
+218122187 - Tinomudaishe Ndhlovu
+221026916 - Kelvin Gora
+220076618 - Tashinga Mataranyika
+222048212 - Nathan Diambomba
+
 
 """
 class Node:
@@ -148,19 +153,20 @@ class playlist_Items:
             top = top.next
 
     
+    
 ## ------------------------------------------- ##
 #       UNCOMMENT TO TEST EACH CASE SCENARIO    #   
 ## ------------------------------------------- ##
 
 
-d_list = playlist_Items()
+# d_list = playlist_Items()
 
 # d_list.push(11)
 # d_list.push(8)
 # d_list.push(62)
 
 # d_list.playSongsCircular()
-
+#print(" ---- SUCCESSFULL ADDITION ---- ")
 # d_list.listSongsDoubly(d_list.head)
 
 """
@@ -168,31 +174,30 @@ TEST FOR THE ADDING OF NEW SONGS
 """
 # d_list.append(9)
 # d_list.append(45)
-
+#print(" ---- SUCCESSFULL ADDING ON TOP OF EXISTSING LIST ---- ")
 # d_list.appendedSongs(d_list.head)
 
 """
 TEST FOR THE DELETING OF NEW SONGS
 """
-# d_list.deleteSong(d_list.head)
 # d_list.deleteSong(8)
 
-# print("ITEMS LEFT AFTER DELETING")
+#print(" ---- SUCCESSFULL DELETED ---- ")
 # d_list.printSongsLeft()
         
 """
 TEST FOR THE SEARCHING OF NEW SONGS
 """
-d_list.pushSearch(11)
-d_list.pushSearch(8)
-d_list.pushSearch(62)
-d_list.pushSearch(32)
-d_list.pushSearch(44)
+# d_list.pushSearch(11)
+# d_list.pushSearch(8)
+# d_list.pushSearch(62)
+# d_list.pushSearch(32)
+# d_list.pushSearch(44)
 
-#Print the Values
-print("print_Searched_Item")
-#Search
-d_list.searchSong(8)
-d_list.searchSong(44)
+# #Print the Values
+#print(" ---- SUCCESSFULL SEARCH ---- ")
+# #Search
+# d_list.searchSong(8)
+# d_list.searchSong(44)
 
 
